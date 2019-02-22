@@ -1,0 +1,2 @@
+ifconfig -a | grep "broadcast" | cut -d " " -f 6
+ifconfig -a | grep "netmask" | grep "broadcast" | cut -d " " -f 2
