@@ -1,0 +1,2 @@
+ifconfig en1 | grep "ether" | cut -d " " -f 2
+# I looked at wi-fi settings and that's en 1, so we search en1
