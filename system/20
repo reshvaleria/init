@@ -1,0 +1,2 @@
+passwd -S -a | cut -d" " -f1
+#cat /etc/passwd

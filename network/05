@@ -1,4 +1,2 @@
-dig  slash16.org | awk '/ANSWER SECTION/,0' | awk '/slash16.org./ {print $5}'
-# nslookup slash16.org
+nslookup slash16.org
 # dig  slash16.org
-# dig +short

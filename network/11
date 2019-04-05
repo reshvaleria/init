@@ -17,4 +17,4 @@ traceroute to slash16.org (13.32.43.171), 64 hops max, 52 byte packets
 15  * * *
 16  server-13-32-43-171.hel50.r.cloudfront.net (13.32.43.171)  17.875 ms  17.985 ms  17.011 ms
 
-first IP int traceroute 192.168.20.1
+217-67-187-49 this ip is the first not local == NAT 

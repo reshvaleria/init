@@ -1,0 +1,15 @@
+#!/bin/bash
+
+USER=$1
+real=$(cat /etc/passwd | grep '/home' | grep "$USER" | cut -d":" -f1)
+syst=$(cat /etc/passwd | grep "$USER" | cut -d":" -f1)
+echo "$USER is:"
+if [ "$real" == "$USER" ]
+then
+	echo "a real user"
+elif [ "$syst" == "$USER" ]
+then
+	echo "not a real user"
+else
+	echo "not a user"
+fi

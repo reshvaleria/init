@@ -1,0 +1,3 @@
+pkill tail
+#pgrep, pkill - look up or signal processes based on name and other
+
