@@ -1,3 +1,5 @@
+#Use the output of the previous command to find the name and IP address of the device that makes the link between you (local network) and the outside world
+
 traceroute: Warning: slash16.org has multiple addresses; using 13.32.43.171
 traceroute to slash16.org (13.32.43.171), 64 hops max, 52 byte packets
 1  192.168.20.1 (192.168.20.1)  1.659 ms  0.928 ms  0.890 ms
