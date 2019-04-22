@@ -1,2 +1,3 @@
+#What file contains the local DNS entries?
 /etc/hosts
-#this file contains pair of ip and site. if the pair exists there will be no dns-obraschenie
+#This file contains pair of ip and site. if the pair exists there will be no dns-query
